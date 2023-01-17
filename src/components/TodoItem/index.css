@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 60vw;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.todo-head {
+  font-size: 16px;
+  flex-wrap: wrap;
+  min-width: 80%;
+  margin-bottom: 12px;
+  align-self: flex-start;
+}
+.button {
+  background-color: #ffffff;
+  border: 2px solid #ff0b37;
+  border-radius: 4px;
+  padding: 8px;
+  width: 80px;
+  color: #ff0b37;
+  align-self: flex-end;
+}
